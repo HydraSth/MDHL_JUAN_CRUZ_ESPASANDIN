@@ -1,0 +1,75 @@
+*{
+    font-family: "Comic Sans", cursive;
+    box-sizing: border-box;
+}
+
+/* ============ Estilos header ============ */
+header>section{
+    background-color: rgba(0, 0, 0, 0.795);
+    background-blend-mode:color;
+    background-image: url(./assets/bg-header.jpg);
+    background-size: cover;
+    max-width: 80vw;
+    min-height: 20vw;
+    display: block;
+    margin: auto;
+}
+
+header>section>h1{
+    display:inline-block;
+    padding-left: 3vw;
+    font-size: 4.5vw;
+    color: cornsilk;
+}
+
+img[src="assets/img/Logo.png"]{
+    max-width: 20vw;
+    position: relative;
+    left: 56vw;
+    top: 6vh;
+}
+
+header>div>h3{
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 400;
+    margin: auto;
+    padding: 1vw;
+    display: block;
+    max-width: 80vw;
+    min-height: 5vw;
+    background-color: #000000;
+}
+/* --------- Fin estilos header --------- */
+
+/* ============ Estilos nav ============ */
+nav{
+    display: inline-block;
+    width: 20vw;
+    margin-left: 10vw;
+}
+nav a{
+    display:block;
+    margin: 2vw 0vw 10vw 0vw;
+    font-size: 2.6vw;
+}
+/* --------- Fin estilos nav --------- */
+
+/* ============ Estilos main ============ */
+main{
+    float: right;
+    width: 60vw;
+    margin-right: 7.5vw;
+    font-size: 2.5vw;
+}
+
+main>section>ul{
+    list-style: none;
+}
+
+main>section>ul>li>p{
+    margin-left: 4vw;
+}
+
+/* --------- Fin estilos main --------- */
